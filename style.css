@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #ddeedd;
+    display: flex;   
+}
+
+.img{
+    width: 15%;
+    background-color: #ddeedd;
+    border-collapse: separate;
+    border-bottom: 5px solid white;
+    border-right: 2px solid white;
+}
+
+.img img{
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: #ddeedd;
+}
+
+.name{
+    width: 150%;
+    background-color: #ddeedd;
+    border-collapse: separate;
+    border-bottom: 5px solid white;
+    border-right: 2px solid white;
+}
+
+.name h1{
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.search{
+    padding: 20px 20px;
+    background-color: #ddeedd;
+    border-collapse: separate;
+    border-bottom: 5px solid white;
+}
+
+.search p{
+    padding-bottom: 10px;
+}
+
+.search input{
+    padding: 0px;
+}
+
+.nav{
+    background: #C2E3E3;
+    width: 100%;
+    border-bottom: 5px solid white;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.nav ul li{
+    display: block;
+    float: left;
+    width:100%;
+    border-right: 2px solid white;
+    text-align: center
+}
+
+.nav ul li a{
+    background: #CEDEEC;
+    text-decoration: none;
+    font-size: 20px;
+    color: #444;
+    display: block;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.nav ul li a:hover{
+    background: #B6D1E4;
+    color: #fff;
+}
+
+.main{
+    background: #f0efef;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+}
+
+.post{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post h2{
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+.post img{
+    padding-top: 50px;
+    float: left;
+    width: 500px;
+    background: white;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 30px;
+    margin-left: 370px;
+}
+
+.post p{
+    font-size: 16px;
+    line-height: 23px;  
+}
+
+.footsection{background:#FFFFFF;}
+
+.footportion {
+  color: #777;
+  margin: 0 50px 10px 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footportion p {
+  margin: 0;
+}
+
+.footportion a {
+  color: #777;
+}
+
+.footportion a:hover{text-decoration:none;color:#D15D20;}
+
+

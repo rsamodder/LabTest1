@@ -1,0 +1,25 @@
+h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: red;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+#grid div {
+    border: 2px solid gray;
+    height: 130px;
+
+}
+
+#grid div img {
+    height: 90%;
+    width: 80%;
+    padding-left: 20%; 
+    padding-top: 5%; 
+}

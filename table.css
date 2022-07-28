@@ -1,0 +1,36 @@
+.center {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.table {
+    display: grid;
+}
+
+.table table {
+    border: 2px solid gray;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.table div img {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    background-color: #667292;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue;
+    height: 40px;
+}
+
+th{
+    padding: 20px 20px;
+}
+
+#cell23 {
+    background-color: #f9d5e5;
+}

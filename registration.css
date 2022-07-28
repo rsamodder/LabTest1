@@ -1,0 +1,86 @@
+body{
+  background-image: linear-gradient(to right, #f0efef, #DECBA4, #f0efef);
+}
+
+.div-flex {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.div-half-width {
+    width: 50%;
+}
+
+input[type="submit"]{
+  width: 80%;
+  height: 50px;
+  background: #f0ad4e;
+  border-color: #f0ad4e;
+  cursor: pointer;
+  outline: none;
+  color: #e9f4fb;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+  background: #b0aac0;
+  border-color: #e4d1d1;
+}
+
+
+h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.box{
+    width: 50%;
+    padding: 30px 30px 30px 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 22%;
+    left: 20%; 
+}
+
+.box:hover{
+  box-shadow: 10px 10px 50px gray;
+}
+
+form{
+    display: flex;
+    gap: 0px;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 10px 0 20px 20px;
+}
+
+form div{
+    text-align: left;
+}
+
+form input{
+    padding: 2px 0;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
